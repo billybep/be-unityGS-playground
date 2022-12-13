@@ -110,13 +110,11 @@ namespace Unity.Services.Samples.VirtualShop
 
             foreach (var currencyDefinition in currencyDefinitions)
             {
-                Debug.Log("asdfasd555");
-                Debug.Log(currencyDefinition.Id);
-                //if (currencyDefinition.CustomDataDeserializable.GetAs<Dictionary<string, string>>() is { } customData
-                //    && customData.TryGetValue("spriteAddress", out var spriteAddress))
-                //{
-                //    addressablesLoadData.Add(currencyDefinition.Id, spriteAddress);
-                //}
+                if (currencyDefinition.CustomDataDeserializable.GetAs<Dictionary<string, string>>() is { } customData
+                    && customData.TryGetValue("spriteAddress", out var spriteAddress))
+                {
+                    addressablesLoadData.Add(currencyDefinition.Id, spriteAddress);
+                }
             }
         }
 
@@ -130,14 +128,11 @@ namespace Unity.Services.Samples.VirtualShop
 
             foreach (var inventoryItemDefinition in inventoryItemDefinitions)
             {
-                Debug.Log("asdfasdzzzzzzzz777");
-                Debug.Log(inventoryItemDefinition);
-
-                //if (inventoryItemDefinition.CustomDataDeserializable.GetAs<Dictionary<string, string>>() is { } customData
-                //    && customData.TryGetValue("spriteAddress", out var spriteAddress))
-                //{
-                //    addressablesLoadData.Add(inventoryItemDefinition.Id, spriteAddress);
-                //}
+                if (inventoryItemDefinition.CustomDataDeserializable.GetAs<Dictionary<string, string>>() is { } customData
+                    && customData.TryGetValue("spriteAddress", out var spriteAddress))
+                {
+                    addressablesLoadData.Add(inventoryItemDefinition.Id, spriteAddress);
+                }
             }
         }
 
@@ -146,8 +141,6 @@ namespace Unity.Services.Samples.VirtualShop
         {
             for (var i = 0; i < addressablesLoadData.ids.Count; i++)
             {
-                Debug.Log("AAAddreessssable");
-                Debug.Log(addressablesLoadData.ids[i]);
                 var id = addressablesLoadData.ids[i];
                 var handle = addressablesLoadData.handles[i];
 

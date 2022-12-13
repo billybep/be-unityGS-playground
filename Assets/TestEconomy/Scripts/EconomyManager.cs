@@ -60,7 +60,6 @@ namespace Unity.Services.Samples.VirtualShop
             var getInventoryItemsTask = EconomyService.Instance.Configuration.GetInventoryItemsAsync();
             var getVirtualPurchasesTask = EconomyService.Instance.Configuration.GetVirtualPurchasesAsync();
 
-            Debug.Log("-----------------aaa---");
             await Task.WhenAll(getCurrenciesTask, getInventoryItemsTask, getVirtualPurchasesTask);
 
             // Check that scene has not been unloaded while processing async wait to prevent throw.
@@ -70,7 +69,6 @@ namespace Unity.Services.Samples.VirtualShop
             currencyDefinitions = getCurrenciesTask.Result;
             inventoryItemDefinitions = getInventoryItemsTask.Result;
             m_VirtualPurchaseDefinitions = getVirtualPurchasesTask.Result;
-            Debug.Log("-----------------zzz");
         }
 
         public async Task RefreshCurrencyBalances()

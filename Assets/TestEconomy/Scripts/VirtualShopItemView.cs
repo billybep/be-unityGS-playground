@@ -34,7 +34,6 @@ namespace Unity.Services.Samples.VirtualShop
 
             costIcon.sprite = addressablesManager.preloadedSpritesByEconomyId[cost.id];
             rewardIcon.sprite = addressablesManager.preloadedSpritesByEconomyId[reward.id];
-
             costAmount.text = cost.amount.ToString();
 
             rewardAmount.enabled = reward.amount != 1;

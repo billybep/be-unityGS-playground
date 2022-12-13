@@ -12,72 +12,74 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"bbacd977-75ac-4e1c-8c60-a44d3eb8cc8c\"\n   
+  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5c03b6c0-51b9-460f-bae9-ad9484becf83\"\n   
     },\n    \"rs\": {\n      \"key\": \"SHOP_CONFIG\",\n      \"type\": \"json\",\n     
-    \"schemaId\": null,\n      \"value\": \"{\\n\\t\\\"categories\\\": [{\\n    \\t\\\"id\\\":
-    \\\"Items\\\",\\n        \\\"enabledFlag\\\": true,\\n        \\\"items\\\":
-    [{\\n        \\t\\\"id\\\": \\\"1_SWORD_FOR_COINS\\\"\\n        }, {\\n       
-    \\t\\\"id\\\": \\\"2_SWORD_FOR_COINS\\\",\\n            \\\"color\\\": \\\"#FFFFFFFF\\\",\\n           
-    \\\"badgeIconAddress\\\": \\\"\\\"\\n        }, {\\n        \\t\\\"id\\\": \\\"3_SWORD_FOR_COINS\\\",\\n           
-    \\\"color\\\": \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"2_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"3_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"Sprites/Badges/Banner\\\",\\n           
-    \\\"badgeColor\\\": \\\"#FF0000FF\\\",\\n            \\\"badgeText\\\": \\\"Best
-    Value\\\",\\n            \\\"badgeTextColor\\\": \\\"#FFFFFFFF\\\"\\n       
-    }]\\n\\t}, {\\n    \\t\\\"id\\\": \\\"Currencies\\\",\\n        \\\"enabledFlag\\\":
-    true,\\n        \\\"items\\\": [{\\n        \\t\\\"id\\\": \\\"100_COIN_FOR_GEMS\\\",\\n           
-    \\\"color\\\": \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n\\t\\t},
-    {\\n        \\t\\\"id\\\": \\\"250_COIN_FOR_GEMS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1000_COIN_FOR_GEMS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"Sprites/Badges/Banner\\\",\\n           
-    \\\"badgeColor\\\": \\\"#FF0000FF\\\",\\n            \\\"badgeText\\\": \\\"Best
-    Value\\\",\\n            \\\"badgeTextColor\\\": \\\"#FFFFFFFF\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1_STAR_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"3_PEARL_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }]\\n\\t}, {\\n    \\t\\\"id\\\": \\\"IAP\\\",\\n        \\\"enabledFlag\\\":
-    false,\\n        \\\"items\\\": []\\n    }]\\n}\"\n    }\n  }\n]"
-  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"bbacd977-75ac-4e1c-8c60-a44d3eb8cc8c\"\n   
+    \"schemaId\": null,\n      \"value\": {\n        \"categories\": [\n         
+    {\n            \"id\": \"Items\",\n            \"enabledFlag\": true,\n           
+    \"items\": [\n              {\n                \"id\": \"1_SWORD_FOR_COINS\"\n             
+    },\n              {\n                \"id\": \"2_SWORD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"3_SWORD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"1_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"2_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"3_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"Sprites/Badges/Banner\",\n               
+    \"badgeColor\": \"#FF0000FF\",\n                \"badgeText\": \"Best Value\",\n               
+    \"badgeTextColor\": \"#FFFFFFFF\"\n              }\n            ]\n         
+    },\n          {\n            \"id\": \"Currencies\",\n            \"enabledFlag\":
+    true,\n            \"items\": [\n              {\n                \"id\": \"100_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"250_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"1000_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"Sprites/Badges/Banner\",\n               
+    \"badgeColor\": \"#FF0000FF\",\n                \"badgeText\": \"Best Value\",\n               
+    \"badgeTextColor\": \"#FFFFFFFF\"\n              },\n              {\n               
+    \"id\": \"1_STAR_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
+    \"badgeIconAddress\": \"\"\n              },\n              {\n               
+    \"id\": \"3_PEARL_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
+    \"badgeIconAddress\": \"\"\n              }\n            ]\n          },\n         
+    {\n            \"id\": \"IAP\",\n            \"enabledFlag\": false,\n           
+    \"items\": []\n          }\n        ]\n      }\n    }\n  }\n]"
+  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5c03b6c0-51b9-460f-bae9-ad9484becf83\"\n   
     },\n    \"rs\": {\n      \"key\": \"SHOP_CONFIG\",\n      \"type\": \"json\",\n     
-    \"schemaId\": null,\n      \"value\": \"{\\n\\t\\\"categories\\\": [{\\n    \\t\\\"id\\\":
-    \\\"Items\\\",\\n        \\\"enabledFlag\\\": true,\\n        \\\"items\\\":
-    [{\\n        \\t\\\"id\\\": \\\"1_SWORD_FOR_COINS\\\"\\n        }, {\\n       
-    \\t\\\"id\\\": \\\"2_SWORD_FOR_COINS\\\",\\n            \\\"color\\\": \\\"#FFFFFFFF\\\",\\n           
-    \\\"badgeIconAddress\\\": \\\"\\\"\\n        }, {\\n        \\t\\\"id\\\": \\\"3_SWORD_FOR_COINS\\\",\\n           
-    \\\"color\\\": \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"2_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"3_SHIELD_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"Sprites/Badges/Banner\\\",\\n           
-    \\\"badgeColor\\\": \\\"#FF0000FF\\\",\\n            \\\"badgeText\\\": \\\"Best
-    Value\\\",\\n            \\\"badgeTextColor\\\": \\\"#FFFFFFFF\\\"\\n       
-    }]\\n\\t}, {\\n    \\t\\\"id\\\": \\\"Currencies\\\",\\n        \\\"enabledFlag\\\":
-    true,\\n        \\\"items\\\": [{\\n        \\t\\\"id\\\": \\\"100_COIN_FOR_GEMS\\\",\\n           
-    \\\"color\\\": \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n\\t\\t},
-    {\\n        \\t\\\"id\\\": \\\"250_COIN_FOR_GEMS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1000_COIN_FOR_GEMS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"Sprites/Badges/Banner\\\",\\n           
-    \\\"badgeColor\\\": \\\"#FF0000FF\\\",\\n            \\\"badgeText\\\": \\\"Best
-    Value\\\",\\n            \\\"badgeTextColor\\\": \\\"#FFFFFFFF\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"1_STAR_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }, {\\n        \\t\\\"id\\\": \\\"3_PEARL_FOR_COINS\\\",\\n            \\\"color\\\":
-    \\\"#FFFFFFFF\\\",\\n            \\\"badgeIconAddress\\\": \\\"\\\"\\n       
-    }]\\n\\t}, {\\n    \\t\\\"id\\\": \\\"IAP\\\",\\n        \\\"enabledFlag\\\":
-    false,\\n        \\\"items\\\": []\\n    }]\\n}\"\n    }\n  }\n]"
+    \"schemaId\": null,\n      \"value\": {\n        \"categories\": [\n         
+    {\n            \"id\": \"Items\",\n            \"enabledFlag\": true,\n           
+    \"items\": [\n              {\n                \"id\": \"1_SWORD_FOR_COINS\"\n             
+    },\n              {\n                \"id\": \"2_SWORD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"3_SWORD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"1_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"2_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"3_SHIELD_FOR_COINS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"Sprites/Badges/Banner\",\n               
+    \"badgeColor\": \"#FF0000FF\",\n                \"badgeText\": \"Best Value\",\n               
+    \"badgeTextColor\": \"#FFFFFFFF\"\n              }\n            ]\n         
+    },\n          {\n            \"id\": \"Currencies\",\n            \"enabledFlag\":
+    true,\n            \"items\": [\n              {\n                \"id\": \"100_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"250_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"\"\n             
+    },\n              {\n                \"id\": \"1000_COIN_FOR_GEMS\",\n               
+    \"color\": \"#FFFFFFFF\",\n                \"badgeIconAddress\": \"Sprites/Badges/Banner\",\n               
+    \"badgeColor\": \"#FF0000FF\",\n                \"badgeText\": \"Best Value\",\n               
+    \"badgeTextColor\": \"#FFFFFFFF\"\n              },\n              {\n               
+    \"id\": \"1_STAR_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
+    \"badgeIconAddress\": \"\"\n              },\n              {\n               
+    \"id\": \"3_PEARL_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
+    \"badgeIconAddress\": \"\"\n              }\n            ]\n          },\n         
+    {\n            \"id\": \"IAP\",\n            \"enabledFlag\": false,\n           
+    \"items\": []\n          }\n        ]\n      }\n    }\n  }\n]"
   _environments: "[\n  {\n    \"projectId\": \"9fcf18a0-6aad-47fc-a466-0fb63b229f29\",\n   
-    \"name\": \"production\",\n    \"id\": \"ed2512e2-2430-4c88-bf2e-2d43ca4a09b5\",\n   
-    \"isDefault\": true,\n    \"createdAt\": \"2022-12-07T05:01:13Z\",\n    \"updatedAt\":
-    \"2022-12-07T05:01:13Z\"\n  },\n  {\n    \"projectId\": \"9fcf18a0-6aad-47fc-a466-0fb63b229f29\",\n   
     \"name\": \"development\",\n    \"id\": \"453bac96-3146-40ff-9f10-88631feb12e6\",\n   
     \"isDefault\": false,\n    \"createdAt\": \"2022-12-07T05:11:45Z\",\n    \"updatedAt\":
-    \"2022-12-07T05:11:45Z\"\n  }\n]"
+    \"2022-12-07T05:11:45Z\"\n  },\n  {\n    \"projectId\": \"9fcf18a0-6aad-47fc-a466-0fb63b229f29\",\n   
+    \"name\": \"production\",\n    \"id\": \"ed2512e2-2430-4c88-bf2e-2d43ca4a09b5\",\n   
+    \"isDefault\": true,\n    \"createdAt\": \"2022-12-07T05:01:13Z\",\n    \"updatedAt\":
+    \"2022-12-07T05:01:13Z\"\n  }\n]"
