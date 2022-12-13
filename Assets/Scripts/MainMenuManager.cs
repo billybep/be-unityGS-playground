@@ -33,4 +33,10 @@ public class MainMenuManager : MonoBehaviour
             _desctiptionText.text = "null";
         }
     }
+
+    // Buttons
+    public void OnClickEconomyBtn()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
 }

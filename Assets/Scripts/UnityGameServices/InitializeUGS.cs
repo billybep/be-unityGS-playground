@@ -19,8 +19,9 @@ public class InitializeUGS : MonoBehaviour
         try
         {
 
-            var options = new InitializationOptions();
-                //.SetEnvironmentName();
+            var options = new InitializationOptions()
+                .SetEnvironmentName(_environment);
+
             await UnityServices.InitializeAsync(options);
             //await AuthenticationService.Instance.SignInAnonymouslyAsync();
             Debug.Log("UGS State: " + UnityServices.State);
