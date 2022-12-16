@@ -39,4 +39,9 @@ public class MainMenuManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
+
+    public void OnClickLevelXPBtn()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
 }

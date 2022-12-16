@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5c03b6c0-51b9-460f-bae9-ad9484becf83\"\n   
+  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"94196da4-1d14-4a19-9940-1c20e5131379\"\n   
     },\n    \"rs\": {\n      \"key\": \"SHOP_CONFIG\",\n      \"type\": \"json\",\n     
     \"schemaId\": null,\n      \"value\": {\n        \"categories\": [\n         
     {\n            \"id\": \"Items\",\n            \"enabledFlag\": true,\n           
@@ -43,8 +43,28 @@ MonoBehaviour:
     \"id\": \"3_PEARL_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
     \"badgeIconAddress\": \"\"\n              }\n            ]\n          },\n         
     {\n            \"id\": \"IAP\",\n            \"enabledFlag\": false,\n           
-    \"items\": []\n          }\n        ]\n      }\n    }\n  }\n]"
-  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"5c03b6c0-51b9-460f-bae9-ad9484becf83\"\n   
+    \"items\": []\n          }\n        ]\n      }\n    }\n  },\n  {\n    \"metadata\":
+    {\n      \"entityId\": \"3eae7099-e5eb-4c01-8d8f-056dc67f7c52\"\n    },\n   
+    \"rs\": {\n      \"key\": \"A_B_TEST_GROUP\",\n      \"type\": \"string\",\n     
+    \"value\": \"\"\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"1be023c1-1e06-4800-86e1-344915f74aa2\"\n   
+    },\n    \"rs\": {\n      \"key\": \"A_B_TEST_ID\",\n      \"type\": \"string\",\n     
+    \"value\": \"\"\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"3cb021a8-2711-4571-b41e-9a7a0eb9c41a\"\n   
+    },\n    \"rs\": {\n      \"key\": \"LEVEL_UP_XP_NEEDED\",\n      \"type\": \"int\",\n     
+    \"value\": 100\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"4aa77622-1e3e-4f09-87de-71661957f5b7\"\n   
+    },\n    \"rs\": {\n      \"key\": \"XP_INCREASE\",\n      \"type\": \"int\",\n     
+    \"value\": 10\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"35afcb9c-2049-45ad-af3b-01f61fb646db\"\n   
+    },\n    \"rs\": {\n      \"key\": \"CURRENCIES\",\n      \"type\": \"json\",\n     
+    \"schemaId\": null,\n      \"value\": {\n        \"currencyData\": [\n         
+    {\n            \"currencyId\": \"COIN\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Coin\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"GEM\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Gem\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"PEARL\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Pearl\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"STAR\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Star\"\n            }\n          }\n       
+    ]\n      }\n    }\n  }\n]"
+  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"94196da4-1d14-4a19-9940-1c20e5131379\"\n   
     },\n    \"rs\": {\n      \"key\": \"SHOP_CONFIG\",\n      \"type\": \"json\",\n     
     \"schemaId\": null,\n      \"value\": {\n        \"categories\": [\n         
     {\n            \"id\": \"Items\",\n            \"enabledFlag\": true,\n           
@@ -75,7 +95,27 @@ MonoBehaviour:
     \"id\": \"3_PEARL_FOR_COINS\",\n                \"color\": \"#FFFFFFFF\",\n               
     \"badgeIconAddress\": \"\"\n              }\n            ]\n          },\n         
     {\n            \"id\": \"IAP\",\n            \"enabledFlag\": false,\n           
-    \"items\": []\n          }\n        ]\n      }\n    }\n  }\n]"
+    \"items\": []\n          }\n        ]\n      }\n    }\n  },\n  {\n    \"metadata\":
+    {\n      \"entityId\": \"3eae7099-e5eb-4c01-8d8f-056dc67f7c52\"\n    },\n   
+    \"rs\": {\n      \"key\": \"A_B_TEST_GROUP\",\n      \"type\": \"string\",\n     
+    \"value\": \"\"\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"1be023c1-1e06-4800-86e1-344915f74aa2\"\n   
+    },\n    \"rs\": {\n      \"key\": \"A_B_TEST_ID\",\n      \"type\": \"string\",\n     
+    \"value\": \"\"\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"3cb021a8-2711-4571-b41e-9a7a0eb9c41a\"\n   
+    },\n    \"rs\": {\n      \"key\": \"LEVEL_UP_XP_NEEDED\",\n      \"type\": \"int\",\n     
+    \"value\": 100\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"4aa77622-1e3e-4f09-87de-71661957f5b7\"\n   
+    },\n    \"rs\": {\n      \"key\": \"XP_INCREASE\",\n      \"type\": \"int\",\n     
+    \"value\": 10\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"35afcb9c-2049-45ad-af3b-01f61fb646db\"\n   
+    },\n    \"rs\": {\n      \"key\": \"CURRENCIES\",\n      \"type\": \"json\",\n     
+    \"schemaId\": null,\n      \"value\": {\n        \"currencyData\": [\n         
+    {\n            \"currencyId\": \"COIN\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Coin\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"GEM\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Gem\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"PEARL\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Pearl\"\n            }\n          },\n         
+    {\n            \"currencyId\": \"STAR\",\n            \"currencySpec\": {\n             
+    \"spriteAddress\": \"Sprites/Currency/Star\"\n            }\n          }\n       
+    ]\n      }\n    }\n  }\n]"
   _environments: "[\n  {\n    \"projectId\": \"9fcf18a0-6aad-47fc-a466-0fb63b229f29\",\n   
     \"name\": \"development\",\n    \"id\": \"453bac96-3146-40ff-9f10-88631feb12e6\",\n   
     \"isDefault\": false,\n    \"createdAt\": \"2022-12-07T05:11:45Z\",\n    \"updatedAt\":

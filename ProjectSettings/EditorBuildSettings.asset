@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/GameServices.unity
     guid: 9f1ca05137da74c9398fa2fa1ed10997
   - enabled: 1
-    path: Assets/Scenes/EconomyScene.unity
-    guid: 810cb19624f984998933736b86dfd3cc
+    path: Assets/TestEconomy/VirtualShopsScene.unity
+    guid: 06ba9b20332624dc0aa6115788a8c124
+  - enabled: 1
+    path: Assets/TestLevelXP/LevelXPScene.unity
+    guid: 04bab4cefbb7c4de1ae7d040252e14de
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: d9234ba329f7844f7b99cc819ec41a06, type: 2}
